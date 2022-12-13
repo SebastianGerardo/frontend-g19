@@ -120,7 +120,7 @@ hr {
 
 .link-portafolio:hover {
     color: #ff6464;
-    text-decoration: ;
+    text-decoration: none;
 }
 
 .footer {
@@ -131,3 +131,14 @@ hr {
     border: solid 1px gray;
     border-radius: 10px;
 }
+
+@media screen and (max-width: 800px) {
+    .banner {
+        height: 50vh;
+        display: inline-block;
+        text-align: center;
+        margin: auto;
+        padding-top: 4rem;
+    }    
+}
+
